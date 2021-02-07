@@ -127,10 +127,10 @@ https://devcenter.heroku.com/articles/free-dyno-hours#usage
 
 独立goproxy客户端：
 
-`proxy.exe http -t tcp -p :6600 -T wss -P test2-goproxy.herokuapp.com:443 --parent-ws-password pass -q 8.8.8.8:53 --timeout 30000`
+`proxy.exe http -t tcp -p :6600 -T wss -P lxl-goproxy.herokuapp.com:443 --parent-ws-password pass -q 8.8.8.8:53 --timeout 30000`
 
 在浏览器上设置代理：127.0.0.1:6600   http
-
+ 
 安卓客户端：
 
 安卓 [goproxy-ss-plugin](https://github.com/snail007/goproxy-ss-plugin-android) 插件配置可以写：
